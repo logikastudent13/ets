@@ -1,0 +1,67 @@
+p{
+color:black;
+background:linear-gradient( goldenrod,lightblue, lightblue,gold);
+transition:2s;
+padding:10px;
+text-align:center;
+border-radius:5px;
+
+}
+ main img{
+width:300px;
+height:200px;
+border:3px solid black;
+transition: 2s;
+
+
+}
+
+p:hover{
+color:black;
+font-size:20px;
+border:3px solid brown;
+border-radius: 10px;
+transition:2s;
+}
+
+body {
+background: linear-gradient(90deg,rgba(87, 5, 5, 1) 0%, rgba(163, 3, 3, 1) 20%, rgba(204, 14, 14, 1) 40%, rgba(230, 76, 76, 1) 60%, rgba(240, 127, 127, 1) 80%, rgba(230, 96, 96, 1) 100%);}
+
+main {
+background: linear-gradient(90deg,rgba(87, 5, 5, 1) 0%, rgba(163, 3, 3, 1) 20%, rgba(204, 14, 14, 1) 40%, rgba(230, 76, 76, 1) 60%, rgba(240, 127, 127, 1) 80%, rgba(230, 96, 96, 1) 100%);
+}
+footer img {
+    width:20px;
+    height:20px;
+}
+footer p {
+    font-size:20px;
+}
+header p:hover {
+    font-size:30px;
+    color:black;
+    margin:10px;
+    background:linear-gradient( goldenrod,lightblue, lightblue,gold);
+    
+}
+header img:hover {
+    width:400px;
+    border:10px dotted lightblue;
+    border-radius:3px;
+    transition:2s;
+
+}
+header img {
+    transition:2s;
+}
+main img:hover {
+    transition:2s;
+    border:10px double lightblue;
+    border-radius:5px;
+    width:500px;
+    height:300px;
+
+}.imgcont {
+    display:flex;
+    justify-content:center;
+}
